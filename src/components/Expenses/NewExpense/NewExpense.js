@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./NewExpense.css";
 
 const NewExpense = (props) => {
-  const [isActive, setIsActive] = useState("false");
+  const [isActive, setIsActive] = useState(false);
   const onSaveExpenseDataHandler = (enteredExpenseData) => {
     const expenseData = {
       ...enteredExpenseData,
